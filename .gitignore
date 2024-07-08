@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output directories
+/_output/
+/vendor/
+
+# Go specific
+# Binary files for any OS-specific executables
+*.exe
+*.out
+*.test
+*.app
+
+# Compiled Object files, Static and Dynamic libs
+*.o
+*.a
+*.lib
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Gin specific
+# Gin binary
+/gin-bin
+
+# IDE specific
+.vscode/
+.idea/
+
+# Dependency directories (remove if using Go Modules)
+/vendor/
+/Godeps/
+
+# Compiled Go binary
+main
+
+# End of file marker
+.idea
